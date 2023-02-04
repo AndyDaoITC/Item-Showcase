@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Password</title>
+    <link rel="stylesheet" href="css/signin.css" />
+    <link rel="shortcut icon" type="image/png" href="./img/products/shop logo.png" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body style="background-color: #e5f6ff;">
+    <ul class="menu" id="menu">
+        <li>
+            <a href="index.html"><img src="./img/products/shop logo.png" width="80"/></a>
+        </li>
+        <li>
+            <a href="index.html">Main Page</a>
+        </li>
+        <li>
+            <a href="introduction.html">Introduction</a>
+        </li>
+        <li>
+            <a style="color:rgb(163, 217, 255);" href="signin.html">Change Password</a>
+        </li>
+        <li>
+            <div id = "clock" onload="currentTime()"></div>
+        </li>
+    </ul>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+        <!-- Tabs Titles -->
+
+            <!-- Icon -->
+            <div class="fadeIn first">
+                <br>
+                <p>Change Password</p>
+            </div>
+
+            <!-- Change Password Form -->
+            <form>
+                <input type="password" id="oldpassword" class="fadeIn second" name="login" placeholder="old password">
+                <br>
+                <input type="password" id="newpassword" class="fadeIn third" name="login" placeholder="new password">
+                <br>
+                <input type="password" id="confpassword" class="fadeIn fourth" name="login" placeholder="confirm new password">
+                <p id="error" style="color:red;"></p>
+                <input type="button" class="fadeIn fifth" value="Change Password" id="changePassBtn">
+            </form>
+
+        </div>
+    </div>
+    <div class="footer-daddy">
+        <div class="footercontainer-top">
+            <div class="mainfooter-top">
+                <p class="mainfooter-toptext">Get connected with us on social networks:</p>
+            </div>
+            <div class="icons">
+                <a class="icon" href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a class="icon" href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a class="icon" href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="icon" href="#">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+                <a class="icon" href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a class="icon" href="https://www.facebook.com/andy.dao.1213" target="_black">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+        <div class="main-footer">
+            <div class="footer-child">
+                <p class="title">LOCATIONS</p>
+                <hr class="hr">
+                <br>
+                <p><i class="fa-solid fa-location-dot"></i>  Ho Chi Minh</p>
+                <p><i class="fa-solid fa-location-dot"></i>  Ha Noi</p>
+                <p><i class="fa-solid fa-location-dot"></i>  Da Nang</p>
+                <p class="title">VERIFIED BY</p>
+                <hr class="hr">
+                <br>
+                <img class="verify" src="img//bocongthuong1.png">
+                <img class="verify" src="img//bocongthuong2.png">
+            </div>
+            <div class="footer-child">
+                <p class="title">POLICY</p>
+                <hr class="hr">
+                <br>
+                <p><i class="fa-solid fa-laptop-mobile"></i>  Buying Online</p>
+                <p><i class="fa-solid fa-cart-shopping"></i>  Buying Offline</p>
+                <p><i class="fa-solid fa-handshake-slash"></i>  No Trading Items</p>
+            </div>
+            <div class="footer-child">
+                <p class="title">ITEMS</p>
+                <hr class="hr">
+                <br>
+                <p><i class="fa-solid fa-ruler-vertical"></i>  Ruler</p>
+                <p><i class="fa-solid fa-pencil"></i>  Pencil</p>
+                <p><i class="fa-solid fa-eraser"></i>  Eraser</p>
+                <p><i class="fa-solid fa-book"></i>  Books & Notebooks</p>
+            </div>
+            <div class="footer-child">
+                <p class="title">CONTACT</p>
+                <hr class="hr">
+                <br>
+                <p><i class="fa-solid fa-phone"></i>  Phone number: 0817600000</p>
+                <p><i class="fa-solid fa-envelope"></i>  Email: andydaoitc@gmail.com</p>
+                <iframe style="margin-top: 10px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29793.988390095114!2d105.81945407689193!3d21.02273870408994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSGFub2ksIEhvw6BuIEtp4bq_bSwgSGFub2ksIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1656749570874!5m2!1sen!2s" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <a href="https://zalo.me/0817600000" target="_blank">
+                    <img src="img//zalo-icon.png" class="zalo" />
+                </a>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>Author:✨AndyDao✨</p>
+            <i class="fa-solid fa-circle-arrow-up" onclick="handleBotToTop()" id="botToTop5"></i>
+        </footer>
+    </div>
+    <script src="js/changepassword.js"></script>
+</body>
+</html>

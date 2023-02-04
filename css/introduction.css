@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+.menu {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.menu li {
+    margin-left: 20px;
+}
+.menu li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu li a:hover {
+    color: rgb(210, 236, 255);
+}
+#botToTop2 {
+    font-size: 40px;
+    color: grey;
+    position: fixed;
+    top: 87%;
+    left: 95%;
+    cursor: pointer;
+    display: none;
+    animation: updown linear 2s infinite;
+}
+@keyframes updown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+#botToTop2:hover {
+    color: red;
+}
+.main-footer {
+    width: 100%;
+    background-color: rgb(236,239,241);
+    display: flex;
+    padding: 20px 100px;
+}
+.footer-child {
+    width: 25%;
+    font-size: 18px;
+}
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.subtitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+.subsmall {
+    width: 50%;
+    padding: 20px;
+}
+.subsmall-text {
+    text-align:justify
+}
+.maininfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.maps {
+    padding: 10px 0 0 100px;
+}
+.mainfooter-top {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(33,209,146);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icons {
+    color: white;
+    height: 50px;
+    width: 50%;
+    background-color: rgb(33,209,146);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    cursor: pointer;
+    font-size: 25px;
+}
+.footercontainer-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon {
+    margin: 15px;
+    color: white;
+}
+.mainfooter-toptext {
+    margin-left: 15px;
+}
+.product-child img:hover {
+    transform: scale(1.05);
+    border-style: solid;
+}
+.Sup {
+    color: rgb(199, 199, 199);
+}
+.footer {
+    background-color: rgb(212, 215, 218);
+    text-align: center;
+    height: 35px;
+    font-size: 20px;
+}
+.hr {
+    width: 60px;
+    height: 2px;
+    background-color: #7c4dff;
+}
+.whiteCharacter{
+    color: white;
+}
+.darkModeBtn {
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+body {
+    font-family: system-ui;
+    background: #f06d06;
+    color: white;
+    text-align: center;
+  }
+  #clock {
+    font-family: system-ui;
+    color: white;
+    text-align: center;
+  }
+  .zalo {
+    position: fixed;
+    top: 78%;
+    left: 94.5%;
+    width: 50px;
+  }
+  .verify {
+    width: 200px;
+  }
